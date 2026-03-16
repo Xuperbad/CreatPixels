@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>字轮档案室 | 复古打字机风格网站</title>
+    <meta
+      name="description"
+      content="简洁优雅的复古打字机拟物网站：机身导航、按键交互、滚轴与纸张阅读区。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;700&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="typewriter" id="top">
+      <div class="brandbar">
+        <span class="brand">THE WRITER'S MACHINE</span>
+        <span class="model">MODEL · C-1936</span>
+      </div>
+
+      <div class="carriage" aria-hidden="true">
+        <span class="knob left"></span>
+        <span class="rail"></span>
+        <span class="carriage-head"></span>
+        <span class="knob right"></span>
+      </div>
+
+      <nav class="key-nav" aria-label="主导航">
+        <a class="key active" href="#home">首页</a>
+        <a class="key" href="#notes">文章</a>
+        <a class="key" href="#rhythm">节律</a>
+        <a class="key" href="#about">关于</a>
+      </nav>
+
+      <div class="machine-lip" aria-hidden="true"></div>
+    </header>
+
+    <main class="paper" id="home">
+      <section class="hero">
+        <p class="label">DOCUMENT No. 112-B</p>
+        <h1>让界面像一台老式打字机一样，
+          <span>有重量、有回弹、有故事。</span>
+        </h1>
+        <p>
+          顶部是拟物化金属机身与按键导航，底部是卷入滚轴的纸张内容区。
+          字体与排版使用印刷时代逻辑：高可读、强留白、节奏稳定。
+        </p>
+      </section>
+
+      <section id="notes" class="columns">
+        <article>
+          <h2>机身质感</h2>
+          <p>通过金属渐变、边缘高光和深阴影，机身看起来更像真实材料，而不只是扁平色块。</p>
+        </article>
+        <article>
+          <h2>按键交互</h2>
+          <p>导航模拟按键按下：点击时瞬时下沉，当前项保持“已压下”的状态，符合打字机触感记忆。</p>
+        </article>
+        <article>
+          <h2>纸张阅读</h2>
+          <p>正文区域有轻微纸纹与行距控制，适合长文本阅读，也可直接当作博客落地页模版。</p>
+        </article>
+      </section>
+
+      <section id="rhythm" class="rhythm">
+        <h2>打字节律</h2>
+        <ul>
+          <li><span>09:00</span> 第一行落字，节奏开始。</li>
+          <li><span>13:30</span> 纸张推进，段落转场。</li>
+          <li><span>22:10</span> 收稿归档，余音落定。</li>
+        </ul>
+      </section>
+
+      <section id="about" class="about">
+        <h2>关于部署</h2>
+        <p>
+          站点已配置 GitHub Pages Actions 工作流。你已经完成 Source 选择后，下一步只需 push 到仓库并等待自动发布。
+        </p>
+        <a class="to-top" href="#top">回到机身顶部 ↑</a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
